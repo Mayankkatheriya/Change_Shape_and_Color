@@ -6,7 +6,7 @@
 
 ---
 
-##Explaination:
+## Explaination:
 This code is an HTML, CSS, and JavaScript implementation for a web page that allows users to change the background color and shape of an animated container.
 
 * The HTML file defines the structure of the web page, including buttons for changing the color and shape of a container, and it links to external CSS and JavaScript files.
