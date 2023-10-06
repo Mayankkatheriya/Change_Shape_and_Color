@@ -31,8 +31,10 @@ function randomRGB() {
 colorButton.addEventListener("click", ()=>{
     audio.play();
     let newColor = randomRGB();
+    // let bgNewColor = randomRGB();
+    // document.body.style.backgroundColor = bgNewColor;
     outerDiv.style.backgroundColor = newColor;
-    outerDiv.style.transition = "0.8s ease-in-out";
+    outerDiv.style.transition = "0.5s ease-in-out";
 
 })
 
@@ -46,5 +48,5 @@ shapeButton.addEventListener("click", ()=>{
     audio.play();
     let idname = shapeSelect();
     innerDiv.id = idname;
-    innerDiv.style.transition = "0.8s ease-in-out";
+    innerDiv.style.transition = "1s ease-in-out";
 })
